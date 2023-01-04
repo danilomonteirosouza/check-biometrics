@@ -14,6 +14,8 @@
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
+        <li><a href="#iOS Integration">iOS Integration</a></li>
+        <li><a href="#Android Integration">Android Integration</a></li>
       </ul>
     </li>
     <li><a href="#contributing">Contributing</a></li>
