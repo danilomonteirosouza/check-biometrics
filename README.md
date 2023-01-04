@@ -83,6 +83,8 @@ Note that this plugin works with both Touch ID and Face ID. However, to use the 
 
 to your Info.plist file. Failure to do so results in a dialog that tells the user your app has not been updated to use Face ID.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### Android Integration
 
 * The plugin will build and run on SDK 16+, but isDeviceSupported() will always return false before SDK 23 (Android 6.0).
@@ -123,6 +125,8 @@ package="com.example.app">
 * Compatibility
 
 On Android, you can check only for existence of fingerprint hardware prior to API 29 (Android Q). Therefore, if you would like to support other biometrics types (such as face scanning) and you want to support SDKs lower than Q, do not call getAvailableBiometrics. Simply call authenticate with biometricOnly: true. This will return an error if there was no hardware available.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 ## Contributing
